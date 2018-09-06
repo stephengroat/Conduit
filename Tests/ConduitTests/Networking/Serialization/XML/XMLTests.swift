@@ -43,7 +43,7 @@ class XMLTests: XCTestCase {
 
     func testXMLNodeConstruction() {
         let node4 = XMLNode(name: "N")
-        node4.attributes = ["testKey": "testValue"]
+        node4.attributes["testKey"] = "testValue"
         let node5 = XMLNode(name: "LastNode")
 
         let node1 = XMLNode(name: "N")
