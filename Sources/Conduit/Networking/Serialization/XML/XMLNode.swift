@@ -63,7 +63,7 @@ public final class XMLNode {
     /// - Parameters:
     ///   - name: Name of the node
     ///   - value: String value (text node)
-    ///   - attributes: Node attributes dictionary
+    ///   - attributes: Node attributes
     ///   - children: Array of child nodes
     public init(name: String, value: CustomStringConvertible? = nil, attributes: XMLAttributes = XMLAttributes(), children: [XMLNode] = []) {
         self.name = name

@@ -24,6 +24,10 @@ public class XMLAttributes {
         self.attributes = attributes
     }
 
+    init(attributeDict: [String: String?]) {
+        attributes = attributeDict.map { $0 }
+    }
+
     /// Read/write attributes by key
     ///
     /// - Parameter key: attribute key

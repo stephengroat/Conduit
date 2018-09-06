@@ -89,7 +89,7 @@ extension XML {
         func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?,
                     attributes attributeDict: [String: String] = [:]) {
             let node = XMLNode(name: elementName)
-//            node.attributes = attributeDict
+            node.attributes = XMLAttributes(attributeDict: attributeDict)
             if let parentNode = workingTree.popLast() {
                 workingTree.append(parentNode)
             }

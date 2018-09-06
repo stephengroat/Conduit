@@ -378,6 +378,9 @@
 		958563A52141869800439ABF /* XMLAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958563A32141869800439ABF /* XMLAttributes.swift */; };
 		958563A62141869800439ABF /* XMLAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958563A32141869800439ABF /* XMLAttributes.swift */; };
 		958563A72141869800439ABF /* XMLAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958563A32141869800439ABF /* XMLAttributes.swift */; };
+		958563A92141963600439ABF /* XMLAttributesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958563A82141963600439ABF /* XMLAttributesTests.swift */; };
+		958563AA2141963600439ABF /* XMLAttributesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958563A82141963600439ABF /* XMLAttributesTests.swift */; };
+		958563AB2141963600439ABF /* XMLAttributesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958563A82141963600439ABF /* XMLAttributesTests.swift */; };
 		95BF755C21408E25006212AC /* XMLSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BF755B21408E25006212AC /* XMLSerialization.swift */; };
 		95BF755D21408E25006212AC /* XMLSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BF755B21408E25006212AC /* XMLSerialization.swift */; };
 		95BF755E21408E25006212AC /* XMLSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BF755B21408E25006212AC /* XMLSerialization.swift */; };
@@ -585,6 +588,7 @@
 		956D7E431FA1332E002FB4D3 /* QueryStringArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryStringArrayTests.swift; sourceTree = "<group>"; };
 		956D7E471FA13387002FB4D3 /* QueryStringDictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryStringDictionaryTests.swift; sourceTree = "<group>"; };
 		958563A32141869800439ABF /* XMLAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLAttributes.swift; sourceTree = "<group>"; };
+		958563A82141963600439ABF /* XMLAttributesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLAttributesTests.swift; sourceTree = "<group>"; };
 		95BF755B21408E25006212AC /* XMLSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLSerialization.swift; sourceTree = "<group>"; };
 		95BF7564214095E1006212AC /* XMLPrettyPrintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLPrettyPrintTests.swift; sourceTree = "<group>"; };
 		95CC71C21F797B0C003B4E31 /* badcertificate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = badcertificate.txt; sourceTree = "<group>"; };
@@ -1043,6 +1047,7 @@
 		95B8878F1F396F2600F61C28 /* XML */ = {
 			isa = PBXGroup;
 			children = (
+				958563A82141963600439ABF /* XMLAttributesTests.swift */,
 				95E26BB11F29A2FE00804900 /* XMLNodeTests.swift */,
 				95D9484D2138A34D0028B075 /* XMLNodeTestsSubjects.swift */,
 				95BF7564214095E1006212AC /* XMLPrettyPrintTests.swift */,
@@ -1787,6 +1792,7 @@
 				1BF8E56120CF1760002D8AF1 /* XMLRequestSerializerTests.swift in Sources */,
 				95D9484E2138A34D0028B075 /* XMLNodeTestsSubjects.swift in Sources */,
 				1BD555851F17DC81004B1172 /* ResultTests.swift in Sources */,
+				958563A92141963600439ABF /* XMLAttributesTests.swift in Sources */,
 				95BF7565214095E1006212AC /* XMLPrettyPrintTests.swift in Sources */,
 				1B279CDA1F19558100C0005E /* OAuth2RequestPipelineMiddlewareTests.swift in Sources */,
 				1B279CD41F19558100C0005E /* OAuth2ExtensionTokenGrantTests.swift in Sources */,
@@ -1831,6 +1837,7 @@
 				1BF8E56220CF1760002D8AF1 /* XMLRequestSerializerTests.swift in Sources */,
 				95D9484F2138A34D0028B075 /* XMLNodeTestsSubjects.swift in Sources */,
 				1BD555861F17DC81004B1172 /* ResultTests.swift in Sources */,
+				958563AA2141963600439ABF /* XMLAttributesTests.swift in Sources */,
 				95BF7566214095E1006212AC /* XMLPrettyPrintTests.swift in Sources */,
 				1B279CDB1F19558100C0005E /* OAuth2RequestPipelineMiddlewareTests.swift in Sources */,
 				1B279CD51F19558100C0005E /* OAuth2ExtensionTokenGrantTests.swift in Sources */,
@@ -1875,6 +1882,7 @@
 				1BF8E56320CF1760002D8AF1 /* XMLRequestSerializerTests.swift in Sources */,
 				95D948502138A34D0028B075 /* XMLNodeTestsSubjects.swift in Sources */,
 				1BD555871F17DC81004B1172 /* ResultTests.swift in Sources */,
+				958563AB2141963600439ABF /* XMLAttributesTests.swift in Sources */,
 				95BF7567214095E1006212AC /* XMLPrettyPrintTests.swift in Sources */,
 				1B279CDC1F19558100C0005E /* OAuth2RequestPipelineMiddlewareTests.swift in Sources */,
 				1B279CD61F19558100C0005E /* OAuth2ExtensionTokenGrantTests.swift in Sources */,
